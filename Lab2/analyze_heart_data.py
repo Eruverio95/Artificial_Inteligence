@@ -15,6 +15,5 @@ def basic_report(df: pd.DataFrame) -> dict:
 
 
 if __name__ == '__main__':
-    url = 'https://raw.githubusercontent.com/plotly/datasets/master/heart.csv'
-    data = load_data(url)
+    data = load_data("..\\Data\\Heart_Data.csv")
     print(basic_report(data))

@@ -4,3 +4,4 @@ def calculate_risk_score(age: int, cholesterol: int, max_heart_rate: int) -> flo
 
     score = age * 0.2 + cholesterol * 0.05 - max_heart_rate * 0.03
     return round(score, 2)
+
